@@ -15,25 +15,25 @@ export const CATEGORIES =  [
     },
     {
       id: 3,
+      name: 'Care of Magical Creatures',
+      description: 'Learn more about how to care for and handle magical creatures with Professor Hagrid.',
+      imageUrl: 'https://wallpaperaccess.com/full/369776.jpg',
+      routeLink: 'magical_creatures'
+    },
+    {
+      id: 4,
       name: 'Wizards',
       description: 'Learn more about the Wizards of Hogwart',
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV5r9L1Azf6HlS5pBW3E_6L33i7sfVEW0BGg&usqp=CAU',
       routeLink: 'wizards'
     },
     {
-      id: 4,
+      id: 5,
       name: 'Herbology',
       description: 'Study the magical properties of plants with Professor Sprout.',
       imageUrl: 'https://images.ctfassets.net/usf1vwtuqyxm/1G70y30RIIDack4WperpRk/59b64c28486dd933e89e4bd0264a9d86/HP-F2-chamber-of-secrets-greenhouse-herbology-sprout-mandrake-lesson-class-web-landscape?fm=jpg&q=70&w=2560',
       routeLink: 'herbology'
-    },
-    {
-      id: 5,
-      name: 'Care of Magical Creatures',
-      description: 'Learn more about how to care for and handle magical creatures with Professor Hagrid.',
-      imageUrl: 'https://wallpaperaccess.com/full/369776.jpg',
-      routeLink: 'magical-creatures'
-    }
+    } 
   ]
 
   export const CHARMS_DATA = [
@@ -96,4 +96,13 @@ export const POTIONS_DATA = [
   level: 'Expert',
   description: 'A potion that causes the drinker to tell the truth.'
   }
+  ];
+
+  export const MAGICAL_DATA = [
+    {
+      name: 'White unicorn',
+      img: 'https://cdn.pixabay.com/photo/2017/09/12/20/02/png-2743495_1280.png?quality=90&resize=980,654',
+      level: 'Intermediate',
+      description: 'A unicorn is a mythical creature often depicted as a horse-like animal with a single spiral horn projecting from its forehead. It has been a symbol of grace, purity, and beauty in various cultures and mythologies. Unicorns are commonly associated with fantasy and magic, appearing in stories, art, and literature throughout history.'
+    }
   ];
